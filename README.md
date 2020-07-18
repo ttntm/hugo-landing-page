@@ -36,7 +36,7 @@ Please note that `gulp css` _does not_ include that `normalize.css` file used fo
 
 All page content is stored in `./content`.
 
-`./content/sections/` is where each section's content cna be found.
+`./content/sections/` is where each section's content can be found.
 
 The individual tile/card elements for the "Features" screen are stored in `./content/sections/features/`
 
