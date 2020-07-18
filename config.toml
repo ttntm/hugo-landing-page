@@ -7,6 +7,8 @@ disableKinds = ["RSS","taxonomy","taxonomyTerm"] # disable hugo's content that w
 
 title = "AWE.SOME - A Landing Page Template for Hugo" # page title -> see ./layouts/partials/head.html
 
+googleAnalytics = "" # if needed...
+
 [author]
     name = "AWE.SOME"
     email = "awe.some@example.com"
