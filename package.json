@@ -13,7 +13,7 @@
   },
   "author": "ttntm",
   "license": "MIT",
-  "homepage": "https://github.com/ttntm/hugo-landing-page#readme",
+  "homepage": "https://awesome.ttntm.me",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
