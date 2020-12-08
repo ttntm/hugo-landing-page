@@ -1,5 +1,5 @@
 ---
-title: BPM.WIKI
+title: AWE.SOME
 headless: true
 resources:
     - name: about
