@@ -4,7 +4,7 @@
 
 <div id="features" class="w-full min-h-screen flex flex-col justify-center items-center bg-indigo-800 py-12">
     <div class="self-center text-center w-full sm:w-2/3 xl:w-1/2 px-4 sm:px:0">
-        <h2 class="tracking-wide text-pink-600 font-bold text-4xl mb-6">{{ $intro.Title }}</h2>
+        <h2 class="tracking-wide text-pink-600 font-bold text-4xl mb-4">{{ $intro.Title }}</h2>
         <div class="font-light text-gray-200 text-xl mb-6">
             {{ $intro.Content }}
         </div>
@@ -16,7 +16,7 @@
                     <img src="/img/features/{{ .Params.icon }}" alt="{{ .Title }}" class="w-16 block sm:mx-auto">
                 </div>
                 <div class="w-2/3 xl:w-3/4">
-                    <h3 class="tracking-wide text-pink-600 font-bold text-2xl mb-4">{{ .Title }}</h3>
+                    <h3 class="tracking-wide text-pink-600 font-bold text-2xl uppercase mb-2">{{ .Title }}</h3>
                     <div class="font-light text-gray-200 text-lg">
                         {{ .Content }}
                     </div>
