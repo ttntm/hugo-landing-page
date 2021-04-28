@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preload" href="/css/page.css" as="style">
+<!-- PRELOAD CDN SCRIPTS -->
+<link rel="preconnect" href="https://unpkg.com/popper.js@1" as="script">
+<link rel="preconnect" href="https://unpkg.com/tippy.js@4" as="script">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="{{ with .Description }}{{.}}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
+<meta name="author" content="{{ .Site.Params.author.name }}">
+<meta name="robots" content="index,follow">
+<!-- BEGIN SOCIAL META DATA -->
+        {{ template "_internal/twitter_cards.html" . }}
+        {{ template "_internal/opengraph.html" . }}
+<!-- ./END SOCIAL META DATA -->
+<base href="{{ .Site.BaseURL }}">
+<meta name="theme-color" content="#ffffff">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Author.name }}{{ end }}</title>
+<link rel="stylesheet" href="/css/page.css">
+{{- if ne .Site.Params.googleAnalytics "" -}}
+  {{ template "_internal/google_analytics_async.html" . }}
+{{- end -}}

@@ -1,7 +1,6 @@
-{{ partial "header.html" . }}
-<main>
-{{ partial "home.html" . }}
-</main> <!-- main -->
-{{ partial "aside.html" . }}
-</div> <!-- atail -->
-{{ partial "footer.html" . }}
+{{ define "main" }}
+    {{ partial "sections/header.html" . }}
+    {{ partial "sections/about.html" . }}
+    {{ partial "sections/features.html" . }}
+    {{ partial "sections/register.html" . }}
+{{ end }}

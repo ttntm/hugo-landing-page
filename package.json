@@ -1,0 +1,25 @@
+{
+  "name": "hugo-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp css && hugo server",
+    "deploy": "gulp css && hugo --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttntm/hugo-landing-page.git"
+  },
+  "author": "ttntm",
+  "license": "MIT",
+  "homepage": "https://awesome.ttntm.me",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-postcss": "^8.0.0",
+    "tailwindcss": "^1.4.6"
+  }
+}
