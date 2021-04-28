@@ -1,0 +1,549 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.nav-list > li > ul {
+    background-color: #00H;
+}
+
+@media (max-width: 991px) {
+    nav.row {
+        background-color: #00H;
+    }
+}
+
+body, .blog-count-likes, .blog-count-comments, .comment-reply-link, .comment-edit-link {
+    font-family: 'Hind', "sans-serif";
+    font-style: normal;
+    font-weight: 300;
+}
+
+html {
+    font-size: 16px;
+}
+
+body, td {
+    line-height: 1.7;
+    color: #565656;
+}
+
+body {
+    letter-spacing: -0.46999999999999975px;
+    background-color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6, th, .tagcloud a, input, label, button, input, textarea, a.button, select, a, .project-count, .blog-date, .blog-category-link, .atail-post-comments-title, .atail-proj-date-text, .atail-proj-date-value, .post-content-footer-title, .small-title, .widget_archive, .widget_categories, .atail-multitext, .atail-multitext-text, .blog-author, .page-numbers, figure .description-title, .project-preview-arrow span, ol li:before, nav:before, nav.row:before, ol ul li:before, .atail-widget-heading {
+    font-family: 'Montserrat', "sans-serif";
+    font-style: normal;
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .blog-info a, label, thead, .atail-widget-heading {
+    color: #4d4f54;;
+}
+
+h1 {
+    letter-spacing: -1.8px;
+}
+
+h2 {
+    letter-spacing: -1.5px;
+}
+
+h3 {
+    letter-spacing: -1.2px;
+}
+
+h4 {
+    letter-spacing: -0.85px;
+}
+
+h5 {
+    letter-spacing: -0.7px;
+}
+
+h6 {
+    letter-spacing: -0.58px;
+}
+
+.atail-text-logo {
+    font-family: 'Montserrat', "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.atail-text-logo {
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #4d4f54;
+}
+
+a, .post-content-info > a, .post-content-likes .blog-count-likes, .post-content-likes .blog-count-comments, .all-atail-projects-category > ul a, .blog-author, .side-content a {
+    color: #4d4f54;
+    fill: #4d4f54;
+}
+
+.atail-slider h1 a:hover, .atail-slider-item .blog-author span:hover, .atail-slider-item .blog-date span:hover, a:hover, .side-content a:hover, .blog-category a:hover, a.blog-date:hover, .content-info-date a:hover, .post-content-info > a.blog-category-link:hover, .post-content-likes .blog-count-likes:hover, .post-content-tags a[rel="tag"]:hover, .post-sidebar .widget li a:hover {
+    color: #1957f3;
+}
+
+.comment-navigation > h2,
+a.next.page-numbers,
+a.prev.page-numbers,
+.comment-navigation .nav-previous,
+.comment-navigation .nav-next {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .nav-list > li ul a span:first-child {
+        color: #e9e8ee;
+    }
+
+    .nav-list {
+        background-color: #FFF;
+    }
+
+    .window-height .nav-list {
+        background-color: transparent;
+    }
+
+    .nav-list > li > a > span:last-child {
+        color: #4d4f54
+    }
+
+    .nav-list > li > a:hover span:last-child, .nav-list > li.current-menu-item > a > span:last-child {
+        color: #1957f3;
+    }
+
+    .nav-list > li > a > .nav-list-counter {
+        color: #e9e8ee;
+    }
+
+    .nav-list > li.menu-item-has-children:hover > a > span:last-child, .nav-list > li.more-links:hover > a > span:last-child {
+        color: #0a3ab1;
+    }
+
+    .nav-list > li:hover.menu-item-has-children {
+        background-color: #00H;
+    }
+}
+
+.nav-list .sub-menu li.menu-item a, .nav-list .more-links ul li a:link, .nav-list .sub-menu .menu-item a:hover, .nav-list .more-links ul li a:hover {
+    color: #ffffff;
+}
+
+.nav-list .sub-menu .sub-menu li.menu-item a, .nav-list .sub-menu .sub-menu li.menu-item a:hover {
+    color: #adc4ff;
+}
+
+@media (max-width: 991px) {
+    .logo, .show-nav {
+        background-color: #FFF;
+    }
+
+    .atail-header-opened .container-fluid .show-nav > button > span:before, .atail-header-opened .show-nav > button > span:after {
+        background-color: #FFF;
+    }
+
+    .nav-list li a, .nav-list > li a > span, .sides .side-content a {
+        color: #FFF !important;
+    }
+
+    .show-nav > button > span > span, .show-nav > button > span:before, .show-nav > button > span:after {
+        background-color: #565656;
+    }
+
+    .logo {
+        border-top-color: #565656;
+        border-right-color: #565656;
+    }
+
+    .show-nav {
+        border-top-color: #565656;
+        border-left-color: #565656;
+    }
+
+    .full-post-mobile-info {
+        background-color: #363b46;;
+        color: #FFF;
+    }
+}
+
+.blog-category a, .comment-edit-link, .comment-reply-link, .most-likes-content .small-title span, span.atail-proj-date-value, .post-content-footer-title, .single-project .small-title span, a.blog-date, .atail-team-member-info .jssocials-share a, .blog-count-likes, .blog-count-comments, .small-title, .widget .small-title {
+    color: #a9acb5;
+}
+
+.blog-promo-box:before {
+    background-color: rgba(47, 47, 47, .5);
+}
+
+.blog-author {
+    color: #363b46;;
+}
+
+.atail-team-follow a:link {
+    color: #a9acb5;
+}
+
+.atail-team-follow a:hover {
+    color: #1957f3;
+}
+
+.atail-post-comments-wrapper:before {
+    background-color: #edf5f8;
+}
+
+.blog-promo-box {
+    background-position: center center;
+    background-size: cover;
+}
+
+.atail-footer {
+    background-color: #232328;
+}
+
+.jssocials-share-count {
+    color: #a9acb5
+}
+
+.post-content-tags a:link, .content-info-date a, .blog-category-link:link {
+    color: #4d4f54;
+}
+
+.content-info-date a, .post-content-info > a:link, .post-content-tags a:link {
+    color: #a9acb5;
+}
+
+.atail-comment-form input, .atail-comment-form textarea {
+    color: #565656;
+    background-color: #FFF;
+}
+
+input, textarea {
+    font-weight: 400;
+}
+
+ul > li:before {
+    background-color: #565656;
+}
+
+ul ol li:before, ol ul li:before, ol li:before {
+    color: #565656;
+}
+
+.atail-post-comments-wrapper {
+    border-top: 1px solid #edf5f8;
+    border-bottom: 1px solid #edf5f8;
+    border-right: 1px solid #edf5f8;
+}
+
+.atail-post-navigation a:hover {
+    background-color: #eef0f6;
+}
+
+.atail-project-image:before {
+    background-color: #363b46;;
+}
+
+.atail-slider h1 a, .atail-slider h2 a, .atail-slider h3 a, .atail-slider h4 a, .atail-slider h5 a, .atail-slider h6 a, .atail-slider h2 a:hover, .atail-slider h3 a:hover, .atail-slider h4 a:hover, .atail-slider h5 a:hover, .atail-slider h6 a:hover, .atail-slider-item .blog-author span, .atail-slider-item .blog-date span, .blog-promo-box > .promo-box > .small-title, .blog-promo-box > .promo-box > p, .atail-project-nav:not(.atail-no-thumbnail) h4, .figure-extended h1 {
+    color: #FFF;
+}
+
+.atail-slider-item, .slider-animate-box .animate-box-left, .slider-animate-box .animate-box-right, .atail-post-title:not(.atail-no-thumbnail) {
+    background-color: #222527;
+}
+
+.slider-next-slide svg, .slider-prev-slide svg, .full-post-prev-slide svg, .full-post-next-slide svg {
+    fill: #4d4f54;
+}
+
+.full-post-animate-box .animate-box-left, .full-post-animate-box .animate-box-right {
+    background-color: #222527;
+}
+
+a.button:link, button, input[type^="submit"], input[type^="button"], button:not([data-action^="close-nav"]) {
+    background-color: #1957f3;
+    color: #FFF;
+}
+
+a.button:hover, button:hover, input[type^="submit"]:hover, input[type^="button"]:hover, button:not([data-action^="close-nav"]):hover {
+    background-color: #1d4dc7;
+    color: #FFF;
+}
+
+button.no-button {
+    background-color: transparent;
+    color: #4d4f54;
+}
+
+button.no-button:hover {
+    background-color: transparent;
+    color: #4d4f54;
+}
+
+.left-side, .right-side, .atail-small-line, .single-project .jssocials-share, .jssocials-share-count-box .jssocials-share-count, .post-content-header .jssocials-share, .grid-bg > div, .atail-brands {
+    border-color: #edf5f8;
+}
+
+@media (min-width: 992px) {
+    .animate-box-top > div, .animate-box-bot > div {
+        border-right: 1px solid #edf5f8;
+    }
+}
+
+.atail-post-navigation > div {
+    border-top: 1px solid #edf5f8;
+    border-bottom: 1px solid #edf5f8;
+}
+
+.atail-post-line {
+    background-color: #edf5f8;
+}
+
+.atail-post-navigation a {
+    border-right: 1px solid #edf5f8;
+}
+
+.widget .widget-title .small-title:after {
+    background-color: #a9acb5;
+}
+
+.widget .widget-title:before, .widget .widget-title:after {
+    background-color: #a9acb5;
+}
+
+.atail-preloader {
+    background-color: #00H;
+}
+
+.atail-dot {
+    background-color: #00H;
+}
+
+.atail-preloader .atail-dot {
+    background-color: #FFF;
+}
+
+.tagcloud a {
+    border-color: #1957f3;
+    color: #1957f3;
+}
+
+.atail-dark-footer .tagcloud a {
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.atail-dark-footer .tagcloud a:hover {
+    background-color: #1957f3;
+    border-color: #1957f3;
+}
+
+.tagcloud a:hover {
+    background-color: #1957f3;
+    border-color: #1957f3;
+}
+
+#today {
+    background-color: #1957f3;
+    color: #FFF;
+}
+
+.blog-promo-box {
+    background-position: center center;
+    background-size: cover;
+}
+
+.widget_recent_entries span, .widget_atail_recent_posts_widget span {
+    color: #a9acb5;
+}
+
+.atail-dark-footer .widget input[type="text"], .atail-dark-footer .widget input[type="search"], .atail-dark-footer .widget input[type="email"], .atail-dark-footer .wpcf7-form-control, .atail-dark-footer .wpcf7-form-control:focus {
+    border-color: #4d4f54;
+    background-color: transparent;
+    color: #FFF;
+}
+
+.post-sidebar .yikes-easy-mc-form input[type=text], .post-sidebar .yikes-easy-mc-form input[type=url], .post-sidebar .yikes-easy-mc-form input[type=email], .post-sidebar .yikes-easy-mc-form input[type=number], .post-sidebar .yikes-easy-mc-form select, .post-sidebar .wpcf7-form-control:not(input[type^="checkbox"]) {
+    border: 1px solid #eef0f6;
+    color: #565656;
+    max-width: 100%;
+    width: 100%;
+}
+
+.post-sidebar .wpcf7-form-control[type^="submit"] {
+    color: #FFF;
+}
+
+.widget_calendar table td {
+    background-color: #eef0f6;
+    border-right: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+
+.post-sidebar .widget li, .post-sidebar .widget li a {
+    color: #4d4f54;
+}
+
+.post-sidebar .widget li:before {
+    background-color: #4d4f54;
+}
+
+.widget {
+    color: #4d4f54;
+}
+
+.widget_calendar table tbody td.pad {
+    background-color: transparent;
+}
+
+.widget.widget_archive ul li {
+    color: #a9acb5;
+}
+
+.widget_calendar table caption, div.cs-select .cs-options ul li, div.cs-select {
+    font-family: 'Montserrat', 'open-sans';
+}
+
+form textarea, form input {
+    color: #565656;
+}
+
+.post-sidebar .yikes-easy-mc-form input[type=text]:focus, .post-sidebar .yikes-easy-mc-form input[type=url]:focus, .post-sidebar .yikes-easy-mc-form input[type=email]:focus, .post-sidebar .yikes-easy-mc-form input[type=number]:focus, .post-sidebar .yikes-easy-mc-form select:focus, .post-sidebar .wpcf7-form-control:focus, .atail-comment-form input:focus, .atail-comment-form textarea:focus {
+    border: 1px solid #565656;
+}
+
+.wpcf7-quiz-label {
+    background-color: #FFF;
+}
+
+@media (max-width: 991px) {
+    .all-projects-animate-box {
+        background-color: #FFF;
+    }
+}
+
+.atail-multitext-title, .atail-multitext-text > span {
+    color: #a9acb5;
+}
+
+.description-table .description-title, figure .description-title {
+    color: #a9acb5;
+}
+
+.atail-brands {
+    background-color: #e0e0e0;
+}
+
+.project-count span, .project-count {
+    color: #a9acb5;
+}
+
+.full-post-close:before, .full-post-close:after, .close-projects-btn.close-projects-btn-loaded:before, .close-projects-btn.close-projects-btn-loaded:after, .close-projects-btn span {
+    background-color: #363b46;
+}
+
+.full-post-content {
+    background-color: #FFF;
+}
+
+.animate-box-top, .animate-box-bot, .post-slider-images {
+    background-color: #FFF;
+}
+
+span[data-action="show-nav"] > span:before, span[data-action="show-nav"] > span:after, span[data-action="close-nav"] > span:before, span[data-action="close-nav"] > span:after, span[data-action="show-nav"] > span > span, span[data-action="close-nav"] > span > span {
+    background-color: #363b46;;
+}
+
+.project-preview-arrow span {
+    fill: #a9acb5;
+    color: #a9acb5
+}
+
+.atail-dark-footer .widget ul li:before {
+    background-color: #4d4f54;
+}
+
+.copyright {
+    color: #e0e0e0
+}
+
+.all-projects-animate-box > div {
+    background-color: #FFF;
+}
+
+input, textarea, form.yikes-easy-mc-form input.yikes-easy-mc-email, form.yikes-easy-mc-form input.yikes-easy-mc-text {
+    border: 1px solid #eef0f6;
+}
+
+.wpcf7-form-control {
+    max-width: 100%;
+    width: 100%;
+}
+
+div.cs-select .cs-options ul li {
+    color: #a9acb5;
+}
+
+div.cs-select, div.cs-select .cs-options ul li:hover {
+    color: #565656;
+}
+
+div.cs-select, select.cs-select {
+    background-color: #eef0f6;
+}
+
+div.cs-select .cs-options ul {
+    border-top: 2px solid #FFF;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin-bottom: 2.4em;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.preview-article-header > h2 > a {
+    color: #363b46;;
+}
+
+.preview-article-header > h2 > a:hover {
+    color: #1957f3;
+}
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.blog-promo-box {
+    background-image: url('../img/blog/photo.jpg');
+}
+
+.extended-row.services {
+     background-image: url('../img/service/photo-2.png');
+    margin-bottom: 0 !important;
+ }
+
+.row-overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+}

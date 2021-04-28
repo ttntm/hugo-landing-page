@@ -1,0 +1,56 @@
+{
+  "status": "success",
+  "title": "Assertively",
+  "link": "http://localhost/wp/?atail_projects=assertively",
+  "content": "Assertively leverage other's optimal mindshare vis-a-vis 24/365 scenarios. Appropriately enable plug-and-play catalysts for change after high-quality expertise. Dynamically monetize next-generation data whereas inexpensive. ",
+  "date_finish": null,
+  "date_start": null,
+  "thumbnail": "<img width=\"350\" height=\"234\" src=\"http://localhost/wp/wp-content/uploads/2016/05/7-1.jpg\" class=\"attachment-atail_project_slide size-atail_project_slide wp-post-image\" alt=\"7\" srcset=\"http://localhost/wp/wp-content/uploads/2016/05/7-1.jpg 350w, http://localhost/wp/wp-content/uploads/2016/05/7-1-300x201.jpg 300w\" sizes=\"(max-width: 350px) 100vw, 350px\" />",
+  "thumbnail_url": "http://localhost/wp/wp-content/uploads/2016/05/7-1.jpg",
+  "slides": [
+    {
+      "src": {
+        "img": "http://localhost/wp/wp-content/uploads/2016/05/bg-5-1.jpg",
+        "title": "",
+        "text": "",
+        "fit": "contain"
+      },
+      "fit": "contain",
+      "type": "image"
+    },
+    {
+      "src": {
+        "img": "http://localhost/wp/wp-content/uploads/2016/07/Eddy-Need-Remix-mp3-image.jpg",
+        "title": "",
+        "text": "",
+        "fit": "cover"
+      },
+      "fit": "cover",
+      "type": "image"
+    },
+    {
+      "src": "https://player.vimeo.com/video/174544848",
+      "type": "video"
+    },
+    {
+      "src": "https://www.youtube.com/embed//XTQjLZJXyaE",
+      "type": "video"
+    }
+  ],
+  "positions": [
+    {
+      "title": "Name",
+      "url": "Developer"
+    },
+    {
+      "title": "Name",
+      "url": "Developer"
+    },
+    {
+      "title": "Name",
+      "url": "QA"
+    }
+  ],
+  "token": "5f3534f00d",
+  "participants": "<span class=\"post-content-footer-title\">Participants</span>"
+}
