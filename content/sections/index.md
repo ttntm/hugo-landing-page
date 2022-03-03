@@ -1,13 +1,11 @@
 ---
-title: AWE.SOME
+title: Wedding! 
 headless: true
 resources:
-    - name: about
-      src: about.md
-    - name: features
-      src: features.md
-    - name: register
-      src: register.md
+    - name: info 
+      src: info.md
+    - name: RSVP
+      src: rsvp.md
     - src: 'features/*'
 ---
 

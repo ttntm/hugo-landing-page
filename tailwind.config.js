@@ -106,7 +106,7 @@ module.exports = {
         100: '#ebf4ff',
         200: '#c3dafe',
         300: '#a3bffa',
-        400: '#7f9cf5',
+        400: '#6896CC',
         500: '#667eea',
         600: '#5a67d8',
         700: '#4c51bf',
@@ -238,6 +238,7 @@ module.exports = {
       default: '1',
     },
     fontFamily: {
+      playfair: ['Playfair Display', 'serif'],
       sans: [
         'system-ui',
         '-apple-system',

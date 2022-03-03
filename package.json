@@ -1,5 +1,5 @@
 {
-  "name": "hugo-landing-page",
+  "name": "wedding",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ttntm/hugo-landing-page.git"
+    "url": "git+https://github.com/nkuik/wedding.git"
   },
   "author": "ttntm",
   "license": "MIT",

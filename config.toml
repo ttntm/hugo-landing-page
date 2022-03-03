@@ -5,16 +5,14 @@ publishdir = "public"
 canonifyUrls = "true"
 disableKinds = ["RSS","taxonomy","taxonomyTerm"] # disable hugo's content that we don't need...
 
-title = "AWE.SOME - A Landing Page Template for Hugo" # page title -> see ./layouts/partials/head.html
-
-googleAnalytics = "" # if needed...
+title = "Wedding - Luna & Nathan"
 
 [author]
-    name = "AWE.SOME"
-    email = "awe.some@example.com"
+    name = "Luna & Nathan"
+    email = "wedding@kuikgyalokay.com"
 
 [params]
-    description = "AWE.SOME - A Landing Page Template for Hugo" # page description -> see ./layouts/partials/head.html
+    description = "Informational site about our wedding" # page description -> see ./layouts/partials/head.html
     images = [] #add images here as "img/name.ext" (points to s./static/img/) to populate the default og and twitter <meta> attributes -> see ./layouts/partials/head.html
 
 # these items will be rendered 1. into a tooltip in the navbar and 2. into the footer - consider that there's limited space when adding more items -> see ./layouts/partials
