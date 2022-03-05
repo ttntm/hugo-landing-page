@@ -11,9 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/nkuik/wedding.git"
   },
-  "author": "ttntm",
+  "author": "nkuik",
   "license": "MIT",
-  "homepage": "https://awesome.ttntm.me",
+  "homepage": "https://nathankuik.com",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",

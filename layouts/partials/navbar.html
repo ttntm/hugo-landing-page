@@ -2,12 +2,9 @@
     <div class="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
         <button id="menuBtn" class="hamburger block sm:hidden focus:outline-none" type="button" onclick="navToggle();" aria-label="Show Menu"><span class="hamburger__top-bun"></span><span class="hamburger__bottom-bun"></span></button>
     </div>
-    <div id="menu" class="w-full sm:w-auto self-end sm:self-center hidden sm:flex flex-col sm:flex-row items-center h-full py-1 pb-4 sm:py-0 sm:pb-0">
-        <a class="font-playfair text-indigo-400 font-bold hover:text-gray-800 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href="https://google.com">Wishlist</a>
-        <a class="font-playfair text-indigo-400 font-bold hover:text-gray-800 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href="{{ if .IsHome }}#info{{ else }}{{ .Site.BaseURL }}#info{{ end }}">Info</a>
-        {{ range .Site.Params.social }}
-            <a href="{{ .url }}" class="text-gray-800 font-bold hover:text-indigo-400 text-lg text-center w-full no-underline sm:hidden py-2" target="_blank" rel="noopener">{{ .title }}</a>
-        {{ end }}
-        <a class="font-playfair text-lg border-4 border-indigo-400 text-indigo-400 bg-white text-lg hover:bg-indigo-400 hover:text-white hover:border-white w-auto no-underline text-center px-6 py-1 my-2 sm:my-0 sm:ml-4" href="{{ if .IsHome }}#rsvp{{ else }}{{ .Site.BaseURL }}#rsvp{{ end }}">RSVP</a>
+    <div id="menu" class="w-full sm:w-auto self-end sm:self-center hidden sm:flex flex-col sm:flex-row items-center h-full py- pb-4 sm:py-0 sm:pb-0">
+        <a class="font-custom text-indigo-400 font-bold hover:text-gray-800 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href="https://google.com">Wishlist</a>
+        <a class="font-custom text-indigo-400 font-bold hover:text-gray-800 text-lg text-center w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1" href="{{ if .IsHome }}#info{{ else }}{{ .Site.BaseURL }}#info{{ end }}">Info</a>
+        <a class="font-custom text-lg border-4 border-indigo-400 text-indigo-400 bg-white text-lg hover:bg-indigo-400 hover:text-white hover:border-white w-auto no-underline text-center px-6 py-1 my-2 sm:my-0 sm:ml-4" href="{{ if .IsHome }}#rsvp{{ else }}{{ .Site.BaseURL }}#rsvp{{ end }}">RSVP</a>
     </div>
 </nav>

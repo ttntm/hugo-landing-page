@@ -51,7 +51,7 @@ module.exports = {
         100: '#fffaf0',
         200: '#feebc8',
         300: '#fbd38d',
-        400: '#f6ad55',
+        400: '#CC8568',
         500: '#ed8936',
         600: '#dd6b20',
         700: '#c05621',
@@ -238,7 +238,8 @@ module.exports = {
       default: '1',
     },
     fontFamily: {
-      playfair: ['Playfair Display', 'serif'],
+      custom: ['Playfair Display', 'serif'],
+      custom2: ['Raleway', 'sans-serif'],
       sans: [
         'system-ui',
         '-apple-system',

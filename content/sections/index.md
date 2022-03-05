@@ -4,8 +4,6 @@ headless: true
 resources:
     - name: info 
       src: info.md
-    - name: RSVP
-      src: rsvp.md
     - src: 'features/*'
 ---
 
