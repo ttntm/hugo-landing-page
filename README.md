@@ -2,7 +2,10 @@
 
 A simple landing page built with Hugo and Tailwind CSS
 
-> There's also an [11ty Version](https://github.com/ttntm/11ty-landing-page)
+**Other versions**
+
+- [11ty](https://github.com/ttntm/11ty-landing-page)
+- [Astro](https://github.com/ttntm/astro-landing-page)
 
 ## How to use this template
 
